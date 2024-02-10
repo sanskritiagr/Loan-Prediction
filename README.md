@@ -9,7 +9,7 @@ The dataset used for training and testing the model consists of various features
 ## Dependencies: 
 Libraries used: Numpy, Pandas, Matplotlib, missingno, seaborn, scipy, sklearn.
 ## Visualization:
-To gain insights into the dataset before building the model, i tried to visualize the model using some plots like:
+To gain insights into the dataset before building the model, i tried to visualize the model using some plots like:</br>
 Countplot(): Counting the number of observations in each categorical bin using bars. For example, after visualizing i observed that we have more males than females applying for a loan. Similarly we have more married couples than singles. 
 Histplot(): Showing the distribution of dataset. Our data is normally distributed which is good for us. 
 Heatmap(): It shows if our attributes are codependent on one another. If were so, we could have simply used any one of them but all our attributes are independent.
