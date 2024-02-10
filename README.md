@@ -27,3 +27,4 @@ MinMaxScaler: Linearly scales them down into a fixed range. </br>
 4. Decision Tree: Best Accuracy- 92.59%
 5. Random Forest: Best accuracy- 92.59%
 6. Gradient Boosting: Best Accuracy- 85.19%
+7. ### Finally I used MaxVoting to ensemble all the models and got final accuracy as 92.59%.
