@@ -12,9 +12,9 @@ Libraries used: Numpy, Pandas, Matplotlib, missingno, seaborn, scipy, sklearn.
 To gain insights into the dataset before building the model, i tried to visualize the model using some plots like:</br>
 Countplot(): Counting the number of observations in each categorical bin using bars. For example, after visualizing i observed that we have more males than females applying for a loan. Similarly we have more married couples than singles. </br>
 Histplot(): Showing the distribution of dataset. Our data is normally distributed which is good for us. </br>
-Heatmap(): It shows if our attributes are codependent on one another. If were so, we could have simply used any one of them but all our attributes are independent.</br>
-Crosstab(): Computes a frequency table for 2 or more factors. We observed that loan status is not dependent on gender since we have almost equal ratio for male and female.</br>
-Boxplot(): Used to show distributions of numeric data values. We observed that we have outliers that needs to be taken care of.</br>
+Heatmap(): Checked if our attributes are codependent on one another. If were so, we could have simply used any one of them but all our attributes are independent.</br>
+Crosstab(): We observed that loan status is not dependent on gender since we have almost equal ratio for male and female.</br>
+Boxplot(): We observed that we have outliers that needs to be taken care of.</br>
 ## Data Preprocessing
 Treating NaN values: For the categorical attributes I used 'mode' to fill in the emply cells and for the numerical values, 'mean' was used.</br>
 Treating Outliers: We simply dropped the values which were not in the range. </br>
